@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMVB.dev | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="brand">VMVB.dev</a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-layout">
+        <div class="hero-text">
+          <p class="eyebrow">Information Technology Student</p>
+          <h1>Hi, I'm Vince Michael V. Baldecasa</h1>
+          <p class="hero-desc">
+            Welcome to my portfolio! I build clean layouts, practice media editing, and learn hands-on computer hardware and networking fundamentals.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="me.jpeg" alt="Portrait of Vince Michael V. Baldecasa" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME -->
+    <section id="about" class="container section-block">
+      <h2 class="heading">About Me</h2>
+      <div class="about-box">
+        <p>
+          I am an IT student focused on practical fundamentals—from visual layout and video cuts to hardware inspection, basic cabling, and structured HTML &amp; CSS page building.
+        </p>
+      </div>
+    </section>
+
+<!-- 3. SKILLS -->
+    <section id="skills" class="container section-block">
+      <h2 class="heading">My Skills</h2>
+      <div class="skills-row">
+        <article class="skill-item">
+          <img src="photo.jpeg" alt="Photo and video editing work" class="skill-img">
+          <h3>Photo &amp; Video Editing</h3>
+          <p>Creating posters, layout graphics, and edited video clips with clean pacing.</p>
+        </article>
+        <article class="skill-item">
+          <img src="maintenace.jpeg" alt="Computer hardware repair and maintenance" class="skill-img">
+          <h3>Hardware Repair &amp; Maintenance</h3>
+          <p>Cleaning, inspecting, and servicing laptop and desktop internal parts.</p>
+        </article>
+        <article class="skill-item">
+          <img src="networking.jpeg" alt="Network switch and Ethernet cabling setup" class="skill-img">
+          <h3>Networking &amp; Cabling</h3>
+          <p>Hands-on work with switches, Ethernet cabling, patch panels, and testing.</p>
+        </article>
+        <article class="skill-item">
+          <div class="code-badge" aria-hidden="true">&lt;/&gt;</div>
+          <h3>Basic Coding (HTML &amp; CSS)</h3>
+          <p>Semantic HTML, Box Model spacing, Flexbox, and CSS Grid layouts.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS -->
+    <section id="projects" class="container section-block">
+      <h2 class="heading">Sample Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <a href="#modal-poster">
+            <img src="photo.jpeg" alt="Poster and graphic layout design" class="project-img">
+          </a>
+          <span class="project-tag">Photo Editing</span>
+          <h3>Poster &amp; Graphic Layout</h3>
+          <p>Poster and layout designs with clean text placement, contrast, and balance.</p>
+          <div class="card-footer"><a href="#modal-poster" class="view-link">View Full Image</a></div>
+        </article>
+        <article class="card">
+          <a href="#modal-video">
+            <video class="project-video" preload="metadata" muted>
+              <source src="video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <span class="project-tag">Video Editing</span>
+          <h3>Edited Video &amp; Clip Cuts</h3>
+          <p>Edited clips with pacing, transitions, text overlays, and timing.</p>
+          <div class="card-footer"><a href="#modal-video" class="view-link">Open Full Video</a></div>
+        </article>
+        <article class="card">
+          <a href="#modal-hw">
+            <img src="repair.jpeg" alt="Hardware inspection and maintenance" class="project-img">
+          </a>
+          <span class="project-tag">Hardware &amp; Setup</span>
+          <h3>PC &amp; Hardware Servicing</h3>
+          <p>Hands-on internal component inspection, cleaning, and setup.</p>
+          <div class="card-footer"><a href="#modal-hw" class="view-link">View Full Image</a></div>
+        </article>
+        <article class="card">
+          <a href="#modal-web">
+            <img src="" alt="Personal portfolio website preview" class="project-img">
+          </a>
+          <span class="project-tag">Basic Web Layout</span>
+          <h3>Personal Portfolio Site</h3>
+          <p>Five-section portfolio built with HTML, Box Model, Flexbox, and Grid.</p>
+          <div class="card-footer"><a href="#modal-web" class="view-link">View Full Image</a></div>
+        </article>
+      </div>
+    </section>
+
+<section id="contact" class="container section-block">
+        <h2 class="heading">Contact</h2>
+        <div class="contact-box">
+          <p>Available for academic reviews, walk-throughs, and entry-level tech tasks.</p>
+          <p class="contact-detail">Email: <a href="mailto:vincemichael.baldecasa@nmsc.edu.ph" class="contact-link">vincemichael.baldecasa@nmsc.edu.ph</a></p>
+          <p class="contact-detail">
+            Profile: <a href="https://github.com/Baldecasa-IT" target="_blank" rel="noopener noreferrer" class="contact-link">https://github.com/Baldecasa-IT</a>
+          </p>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+  <!-- FULL VIEW MODALS -->
+  <div id="modal-poster" class="media-modal">
+    <div class="media-box">
+      <a href="#projects" class="close-btn">Close &times;</a>
+      <img src="photo.jpeg" alt="Full poster design" class="full-media">
+    </div>
+  </div>
+  <div id="modal-video" class="media-modal">
+    <div class="media-box">
+      <a href="#projects" class="close-btn">Close &times;</a>
+      <video class="full-media" controls>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div id="modal-hw" class="media-modal">
+    <div class="media-box">
+      <a href="#projects" class="close-btn">Close &times;</a>
+      <img src="maintenance.jpeg" alt="Full hardware photo" class="full-media">
+    </div>
+  </div>
+  <div id="modal-web" class="media-modal">
+    <div class="media-box">
+      <a href="#projects" class="close-btn">Close &times;</a>
+      <img src="laptop.jpeg" alt="Full portfolio preview" class="full-media">
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 VMVB.dev — Personal Portfolio</p>
+  </footer>
+</body>
+</html>
